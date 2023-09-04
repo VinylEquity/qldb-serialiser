@@ -328,6 +328,9 @@ Note that this is only an ordering and pagination AFTER the results come back fr
 
 
 ## Changes
+**version 2.0.11**
+* Fix for the update function where boolean value was being converted to string
+
 **version 2.0.10**
 * Added model synchronization
 
