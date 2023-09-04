@@ -1,11 +1,7 @@
 {
   "name": "qldb-serialiser",
   "description": "QLDB ORM for Node.JS",
-  "version": "2.0.10",
-  "maintainers": [
-    "Steit Slings <steit.slings@gmail.com>",
-    "Salman Dabbakuti <dabbakuti.salman@gmail.com>"
-  ],
+  "version": "2.0.11",
   "repository": {
     "type": "git",
     "url": "https://github.com/steit/qldb-serialiser.git"
@@ -22,7 +18,10 @@
     "lib",
     "helpers"
   ],
-  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "ISC",
   "dependencies": {
     "amazon-qldb-driver-nodejs": "2.2.0",
     "aws-sdk": "^2.815.0",
